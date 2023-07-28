@@ -1,4 +1,5 @@
 const express = require('express');
+const app = express();
 
 const { projects } = require('./data.json');
 
@@ -23,3 +24,18 @@ const cardRoutes = require('./routes/cards');
 
 app.use(mainRoutes);
 app.use('/cards', cardRoutes);
+
+app.get('/', (req, res) => {
+    res.render('home', {projects})
+});
+
+app.get('/about', (req, res) => {
+    res.render('about')
+});
+
+app.get('/project/:id', (req, res) => {
+	res.render('project', {
+		prompt: cards[req.params.id].question,
+		hint: cards[req.params.id].hint
+	});
+});

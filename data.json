@@ -1,7 +1,16 @@
 {
     "projects": [
         {
-            "id": "",
+            "id": 0,
+            "project_name": "Random Quote Generator",
+            "description": "",
+            "technologies": "",
+            "live_link": "",
+            "github_link": "",
+            "image_urls": ""
+        },
+        {
+            "id": 1,
             "project_name": "",
             "description": "",
             "technologies": "",
@@ -10,7 +19,7 @@
             "image_urls": ""
         },
         {
-            "id": "",
+            "id": 2,
             "project_name": "",
             "description": "",
             "technologies": "",
@@ -19,7 +28,7 @@
             "image_urls": ""
         },
         {
-            "id": "",
+            "id": 3,
             "project_name": "",
             "description": "",
             "technologies": "",
@@ -28,16 +37,7 @@
             "image_urls": ""
         },
         {
-            "id": "",
-            "project_name": "",
-            "description": "",
-            "technologies": "",
-            "live_link": "",
-            "github_link": "",
-            "image_urls": ""
-        },
-        {
-            "id": "",
+            "id": 4,
             "project_name": "",
             "description": "",
             "technologies": "",
