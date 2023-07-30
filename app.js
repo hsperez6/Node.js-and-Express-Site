@@ -32,7 +32,6 @@ app.get('/project/:id', (req, res) => {
 	const text = projects[id]
 	const { technologies } = text
 	res.render('project', { text, technologies });
-	// console.log(technologies)
 });
 
 
@@ -44,20 +43,15 @@ ERROR HANDLERS
 app.use((req, res, next) => {
 	const err = new Error('Page Not Found');
 	err.status = 404;
-	next(err);
+    res.render('page-not-found', { err })
 });
 
 //Global Error Handler
 app.use((err, req, res, next) => {
-	res.locals.error  =  err;
+	res.locals.err = err;
 	res.status(err.status);
-
-	if (err.status === 404) {
-		res.status(404).render('page-not-found', { err });
-	  } else {
-		err.message = err.message || `Something went wrong on the server.`;
-		res.status(err.status || 500).render('error', { err });
-	  }
+	err.message = err.message || `Something went wrong on the server.`;
+	res.status(err.status || 500).render('error', { err });
 });
 
 app.listen(3000, () => {

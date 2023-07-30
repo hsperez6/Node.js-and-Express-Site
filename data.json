@@ -7,7 +7,7 @@
             "technologies": ["JS", "CSS", "HTML"],
             "live_link": "https://hsperez6.github.io/Random-Quote-Generator/",
             "github_link": "https://github.com/hsperez6/Random-Quote-Generator",
-            "image_urls": ["/static/images/Project_0a.jpg", "/static/images/Project_0b.jpg", "/static/images/Project_0aEdit.jpg"]
+            "image_urls": ["/static/images/Project_0a.png", "/static/images/Project_0b.png", "/static/images/Project_0aEdit.png"]
         },
         {
             "id": 1,
@@ -16,7 +16,7 @@
             "technologies": ["JS", "CSS", "HTML"],
             "live_link": "https://hsperez6.github.io/Data-pagination-and-filtering/",
             "github_link": "https://github.com/hsperez6/Data-pagination-and-filtering",
-            "image_urls": ["/static/images/Project_1a.jpg", "/static/images/Project_1b.jpg", "/static/images/Project_1aEdit.jpg"]
+            "image_urls": ["/static/images/Project_1a.png", "/static/images/Project_1b.png", "/static/images/Project_1aEdit.png"]
         },
         {
             "id": 2,
@@ -25,7 +25,7 @@
             "technologies": ["JS", "CSS", "HTML"],
             "live_link": "https://hsperez6.github.io/Interactive-Form/",
             "github_link": "https://github.com/hsperez6/Interactive-Form",
-            "image_urls": ["/static/images/Project_2a.jpg", "/static/images/Project_2b.jpg", "/static/images/Project_2aEdit.jpg"]
+            "image_urls": ["/static/images/Project_2a.png", "/static/images/Project_2b.png", "/static/images/Project_2aEdit.png"]
         },
         {
             "id": 3,
@@ -34,7 +34,7 @@
             "technologies": ["JS", "OOP", "CSS", "HTML"],
             "live_link": "https://hsperez6.github.io/Game-Show/",
             "github_link": "https://github.com/hsperez6/Game-Show",
-            "image_urls": ["/static/images/Project_3a.jpg", "/static/images/Project_3b.jpg", "/static/images/Project_3aEdit.jpg"]
+            "image_urls": ["/static/images/Project_3a.png", "/static/images/Project_3b.png", "/static/images/Project_3aEdit.png"]
         },
         {
             "id": 4,
@@ -43,7 +43,7 @@
             "technologies": ["JS", "Fetch API", "async/await", "modals"],
             "live_link": "https://hsperez6.github.io/Public-API-Request/",
             "github_link": "https://github.com/hsperez6/Public-API-Request",
-            "image_urls": ["/static/images/Project_4a.jpg", "/static/images/Project_4b.jpg", "/static/images/Project_4aEdit.jpg"]
+            "image_urls": ["/static/images/Project_4a.png", "/static/images/Project_4b.png", "/static/images/Project_4aEdit.png"]
         }
     ]
 }

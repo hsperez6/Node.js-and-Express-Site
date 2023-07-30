@@ -17,12 +17,12 @@ block content
           ul
             each item in technologies
               li= item
-        a.btn-link(href=`${text.live_link}`) Live Demo
-        a.btn-link(href=`${text.github_link}`) GitHub Repo
+        a.btn-link(href=`${text.live_link}` target="_blank") Live Demo
+        a.btn-link(href=`${text.github_link}` target="_blank") GitHub Repo
     .project-img-box.box
-      img.project-img(src=`${text.image_urls}[0]`, alt='Project Image')
-      img.project-img(src=`${text.image_urls}[1]`, alt='Project Image')
-      img.project-img(src=`${text.image_urls}[2]`, alt='Project Image')
+      img.project-img(src=`${text.image_urls[0]}`, alt='Project Image')
+      img.project-img(src=`${text.image_urls[1]}`, alt='Project Image')
+      img.project-img(src=`${text.image_urls[2]}`, alt='Project Image')
 
     nav.nav
       a(href='/')

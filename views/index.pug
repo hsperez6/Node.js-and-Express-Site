@@ -8,15 +8,15 @@ block content
     h1 My Portofolio
 
     //- Replace with a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
-    p Here is a list of projects I've developed. The purpose of each project is to showcase the different technologies used.
+    p Here is a list of a few projects I've developed selected to showcase the different technologies.
 
 
   article.portfolio-project-thumbs
     .projects-box.box.grid
       each app in projects
         .cell
-          a(href=`${app.live_link}`)
-            img.thumbnail(src=`${app.image_urls}[2]`, alt=`${app.project_name}`)
+          a(href=`/project/${app.id}`)
+            img.thumbnail(src= `${app.image_urls[2]}`, alt=`${app.project_name}`)
             h5= `${app.project_name}`
 		    
 

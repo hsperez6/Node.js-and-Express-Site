@@ -1,6 +1,14 @@
 extends layout
 
+
 block content
-	h1= error.message
-	h2= error.status
-	pre= error.stack
+	.inner-wrapper.flex-row-wrap.two-col
+		.project-img-box.box
+			img.project-img(src='/static/images/404.png', alt='404')
+		h1= err.message
+		h2= err.status
+		pre= err.stack
+		nav.nav
+			a(href='/')
+				span &larr;
+				|	Back
