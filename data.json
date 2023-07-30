@@ -4,46 +4,46 @@
             "id": 0,
             "project_name": "Random Quote Generator",
             "description": "Simple site randomly selecting a quote from an array of quotes",
-            "technologies": "JS, CSS, HTML",
+            "technologies": ["JS", "CSS", "HTML"],
             "live_link": "https://hsperez6.github.io/Random-Quote-Generator/",
             "github_link": "https://github.com/hsperez6/Random-Quote-Generator",
-            "image_urls": ""
+            "image_urls": ["/static/images/Project_0a.jpg", "/static/images/Project_0b.jpg", "/static/images/Project_0aEdit.jpg"]
         },
         {
             "id": 1,
-            "project_name": "",
-            "description": "",
-            "technologies": "",
-            "live_link": "",
-            "github_link": "",
-            "image_urls": ""
+            "project_name": "Data Pagination and Filtering",
+            "description": "In this project, I used vanilla Javascript to display student information from an array of student objects. I used separate functions to both display the first nine students and to add pagination buttons to better navigate and present the information. Lastly, I added a search option to further enhance the usability of the web page.",
+            "technologies": ["JS", "CSS", "HTML"],
+            "live_link": "https://hsperez6.github.io/Data-pagination-and-filtering/",
+            "github_link": "https://github.com/hsperez6/Data-pagination-and-filtering",
+            "image_urls": ["/static/images/Project_1a.jpg", "/static/images/Project_1b.jpg", "/static/images/Project_1aEdit.jpg"]
         },
         {
             "id": 2,
-            "project_name": "",
-            "description": "",
-            "technologies": "",
-            "live_link": "",
-            "github_link": "",
-            "image_urls": ""
+            "project_name": "Interactive Form",
+            "description": "In this interactive form, elements change dynamically depending on user interaction. The form is written with an emphasis on user accessibility, making sure user can navigate the form easily and visibly, and displays error messages when necessary in the required input fields.",
+            "technologies": ["JS", "CSS", "HTML"],
+            "live_link": "https://hsperez6.github.io/Interactive-Form/",
+            "github_link": "https://github.com/hsperez6/Interactive-Form",
+            "image_urls": ["/static/images/Project_2a.jpg", "/static/images/Project_2b.jpg", "/static/images/Project_2aEdit.jpg"]
         },
         {
             "id": 3,
-            "project_name": "",
-            "description": "",
-            "technologies": "",
-            "live_link": "",
-            "github_link": "",
-            "image_urls": ""
+            "project_name": "Game Show",
+            "description": "Browser-based, word guessing game using JS and Object-Oriented Programming.",
+            "technologies": ["JS", "OOP", "CSS", "HTML"],
+            "live_link": "https://hsperez6.github.io/Game-Show/",
+            "github_link": "https://github.com/hsperez6/Game-Show",
+            "image_urls": ["/static/images/Project_3a.jpg", "/static/images/Project_3b.jpg", "/static/images/Project_3aEdit.jpg"]
         },
         {
             "id": 4,
-            "project_name": "",
-            "description": "",
-            "technologies": "",
-            "live_link": "",
-            "github_link": "",
-            "image_urls": ""
+            "project_name": "Public API Request",
+            "description": "Fictional employee directory using fetch API requests, async/await, and modals.",
+            "technologies": ["JS", "Fetch API", "async/await", "modals"],
+            "live_link": "https://hsperez6.github.io/Public-API-Request/",
+            "github_link": "https://github.com/hsperez6/Public-API-Request",
+            "image_urls": ["/static/images/Project_4a.jpg", "/static/images/Project_4b.jpg", "/static/images/Project_4aEdit.jpg"]
         }
     ]
 }
