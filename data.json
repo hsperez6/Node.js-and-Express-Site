@@ -3,7 +3,7 @@
         {
             "id": 0,
             "project_name": "Random Quote Generator",
-            "description": "Simple site randomly selecting a quote from an array of quotes",
+            "description": "Site randomly selecting a quote from an array of quotes and displaying values for existing properties.",
             "technologies": ["JS", "CSS", "HTML"],
             "live_link": "https://hsperez6.github.io/Random-Quote-Generator/",
             "github_link": "https://github.com/hsperez6/Random-Quote-Generator",
@@ -12,7 +12,7 @@
         {
             "id": 1,
             "project_name": "Data Pagination and Filtering",
-            "description": "In this project, I used vanilla Javascript to display student information from an array of student objects. I used separate functions to both display the first nine students and to add pagination buttons to better navigate and present the information. Lastly, I added a search option to further enhance the usability of the web page.",
+            "description": "In this project, I used JavaScript to display student information from an array of student objects. I used separate functions to both display the first nine students and to add pagination buttons to better navigate and present the information. Lastly, I added a dynamic search option to further enhance the usability of the web page.",
             "technologies": ["JS", "CSS", "HTML"],
             "live_link": "https://hsperez6.github.io/Data-pagination-and-filtering/",
             "github_link": "https://github.com/hsperez6/Data-pagination-and-filtering",
@@ -21,7 +21,7 @@
         {
             "id": 2,
             "project_name": "Interactive Form",
-            "description": "In this interactive form, elements change dynamically depending on user interaction. The form is written with an emphasis on user accessibility, making sure user can navigate the form easily and visibly, and displays error messages when necessary in the required input fields.",
+            "description": "In this interactive form, elements change dynamically depending on user interaction. The form is written with an emphasis on user accessibility, making sure the user can navigate the form easily and visibly. The form also dynamically displays error messages when necessary in the required input fields.",
             "technologies": ["JS", "CSS", "HTML"],
             "live_link": "https://hsperez6.github.io/Interactive-Form/",
             "github_link": "https://github.com/hsperez6/Interactive-Form",
@@ -30,7 +30,7 @@
         {
             "id": 3,
             "project_name": "Game Show",
-            "description": "Browser-based, word guessing game using JS and Object-Oriented Programming.",
+            "description": "Browser-based, word guessing game using Object-Oriented Programming.",
             "technologies": ["JS", "OOP", "CSS", "HTML"],
             "live_link": "https://hsperez6.github.io/Game-Show/",
             "github_link": "https://github.com/hsperez6/Game-Show",
@@ -39,7 +39,7 @@
         {
             "id": 4,
             "project_name": "Public API Request",
-            "description": "Fictional employee directory using fetch API requests, async/await, and modals.",
+            "description": "Fictional employee directory using fetch API requests, async/await, modals, and dynamic search.",
             "technologies": ["JS", "Fetch API", "async/await", "modals"],
             "live_link": "https://hsperez6.github.io/Public-API-Request/",
             "github_link": "https://github.com/hsperez6/Public-API-Request",

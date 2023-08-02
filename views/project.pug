@@ -14,9 +14,9 @@ block content
         p #{text.description}      
       .project-tech-links-box.box
         h6 Technologies
-          ul
-            each item in technologies
-              li= item
+        ul
+          each item in technologies
+            li= item
         a.btn-link(href=`${text.live_link}` target="_blank") Live Demo
         a.btn-link(href=`${text.github_link}` target="_blank") GitHub Repo
     .project-img-box.box

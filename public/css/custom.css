@@ -1,0 +1,50 @@
+.portfolio-intro h1 {
+    text-shadow: -2px 2px gray;
+}
+
+.skills-contact-box h6, .about-intro-box h1  {
+    text-shadow: -1px 1px gray;
+}
+
+.project-tech-links-box h6 {
+    text-shadow: -1px 1px gray;
+}
+
+.project-info-box h1 {
+    text-shadow: -1px 1px gray;
+}
+
+.cell img {
+    box-shadow: -7px 7px 20px gray;
+}
+
+.dev-intro-box h5 {
+    text-shadow: -2px 1px gray;
+}
+
+.nav a {
+    box-sizing: border-box;
+    width: 100%;
+    border: solid #7a7a7a 1px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.nav a:hover {
+    background-color: #7a7a7a;
+    color: aliceblue;
+}
+
+.dev-intro-box a:hover {
+    background-color: #4d4c4c;
+    color: aliceblue;    
+}
+
+.cell:hover {
+    transform: translate(0, -20px);
+}
+
+.btn-link:hover {
+    background-color: rgb(122, 121, 121);
+    color: black;
+}

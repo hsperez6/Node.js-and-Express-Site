@@ -2,13 +2,14 @@ extends layout
 
 
 block content
-	.inner-wrapper.flex-row-wrap.two-col
-		.project-img-box.box
-			img.project-img(src='/static/images/404.png', alt='404')
-		h1= err.message
-		h2= err.status
-		pre= err.stack
+	article.portfolio-about
+		.inner-wrapper.flex-row-wrap.two-col
+			.project-img-box.box
+				img.project-img(src='/static/images/404.png', alt='404')
+				h1= err.message
+				h2= err.status
+			pre= err.stack
 		nav.nav
-			a(href='/')
-				span &larr;
-				|	Back
+				a(href='/')
+					span &larr;
+					|	Back

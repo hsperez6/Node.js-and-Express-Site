@@ -43,15 +43,17 @@ ERROR HANDLERS
 app.use((req, res, next) => {
 	const err = new Error('Page Not Found');
 	err.status = 404;
+    console.log(err.message)
     res.render('page-not-found', { err })
 });
 
 //Global Error Handler
 app.use((err, req, res, next) => {
 	res.locals.err = err;
-	res.status(err.status);
-	err.message = err.message || `Something went wrong on the server.`;
-	res.status(err.status || 500).render('error', { err });
+	err.status = 500;
+	err.message = `Something went wrong on the server.`;
+	res.status(err.status).render('error', { err });
+    console.log(err.message)
 });
 
 app.listen(3000, () => {
